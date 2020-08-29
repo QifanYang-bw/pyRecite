@@ -102,7 +102,7 @@ def Sequential_Session(
             print('Y\n')
         elif inf == 'q':
             print('\nQuitting current session...\n')
-            return (1, prev)
+            return (0, prev)
 
     if len(next_seq) > 0:
         print('The word(s) you need to revise include(s):')
@@ -167,7 +167,7 @@ def Random_Session(
             print('Y\n')
         elif inf == 'q':
             print('\nQuitting current session...\n')
-            return (1, prev)
+            return (0, prev)
 
     if len(next_seq) > 0:
         print('The word(s) you need to revise include(s):')

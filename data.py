@@ -99,7 +99,7 @@ def createdata():
             datawriter = csv.writer(csvfile, delimiter=',')
 
             for row in vocabreader:
-                datawriter.writerow([row[0], row[1], 0, 0])
+                datawriter.writerow([row[0], row[1], 0, 1])
 
     print('Data file created.')
 
